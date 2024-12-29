@@ -246,6 +246,9 @@ h2.font-secondary.fw-900.text-left.font-rm-50.line-height-1.text-white.width-60 
         padding-left: 15px !important;
         padding-right: 15px !important
     }
+    .formctafaces{
+        bottom: -14%;
+    }
 }
 
 .pb-10 {
@@ -1481,7 +1484,7 @@ a.ml-4.btn-secondary-rounded:hover {
     position: absolute;
     color: black;
     left: 220px;
-    top: 125px;
+    bottom: -34%;
 }
 
 
@@ -2356,6 +2359,9 @@ button:focus {
     .__ourBestSeller .progress {
         display: none
     }
+    .formctafaces{
+        bottom: -22%;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -2368,12 +2374,18 @@ button:focus {
     .__ourBestSeller ul.slick-dots {
         left: 40%
     }
+    .formctafaces{
+        bottom: -14%;
+    }
 }
 
 @media screen and (max-width:575px) {
     .__ourBestSeller ul.slick-dots {
         bottom: -40px;
         left: 35%
+    }
+    .formctafaces{
+        bottom: -20%;
     }
 }
 
